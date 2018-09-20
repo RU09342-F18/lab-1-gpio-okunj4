@@ -3,9 +3,9 @@ int main()
 {
     WDTCTL = WDTPW + WDTHOLD; //Stop Watchdog timer
 
-    P1SEL &= ~BIT0;  //sets P1.0 to be configured as I/0
+    P1SEL &= ~BIT0;  //sets pin 0 and pin 1 as I/0
     P1SEL2 &= ~BIT0;
-    P1DIR |= BIT0;+
+    P1DIR |= BIT0; //Makes pin 0 high and pin 1 low
 
 
 
