@@ -1,3 +1,7 @@
+/*  Author: Jacob Okun
+    Created: September 17, 2018
+    Last Updated: September 21, 2018*/
+
 #include <msp430.h>
 void main(void)
 {
@@ -12,7 +16,7 @@ void main(void)
         if((P1IN & BIT3)!=BIT3)
         {
             _delay_cycles(250000); //sets delay so LED can be seen with button press
-            P1OUT ^= BIT0;
+            P1OUT ^= BIT0; //XOR to turn LED on and off
         }
     }
 }
