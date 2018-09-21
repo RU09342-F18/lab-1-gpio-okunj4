@@ -1,6 +1,6 @@
-# Author: Jacob Okun
-## Created: September 21, 2018
-## Last Updated: September 21, 2018
+### Author: Jacob Okun
+### Created: September 21, 2018
+### Last Updated: September 21, 2018
 
 # Simple Blink
 The codes in each folder will blink an LED on the microcontrollers listed.  The LED will blink at a set speed in the code.  These codes are dependent on the MSP430.h library in C.
